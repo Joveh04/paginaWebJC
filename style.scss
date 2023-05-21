@@ -1,0 +1,194 @@
+
+@import "import/interes.scss";
+@import "import/quienSoy.scss";
+@import "import/habilidades.scss";
+@import "import/contacto.scss";
+@import "import/transitions.scss";
+html{
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  h1,h2{
+    color: cornflowerblue;
+    font-size: 16px;
+ } 
+header{
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    height: 5vh;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    nav{
+        display: flex;
+        
+        flex-direction: row;
+        box-sizing: border-box;
+        margin-top: 0.7%;
+        margin-right: 1%;
+        li{
+            list-style:none;
+            a{
+                font-size: 14px;
+            text-decoration: none;
+            color: aliceblue;
+            }
+        }  
+    } 
+    .logo{
+        margin-left: 2%;
+        a{
+            color:grey;
+            font-size: 20px;
+            text-decoration: none;
+            }   
+    } 
+}
+footer{
+    width: 100%;
+    background-color:black; 
+    color: aliceblue;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 5%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;    
+}
+   
+a:hover{
+    color:gray;
+  }
+
+.index{
+    height: calc(100vh - 5vh);
+    background-image: url(imagenes/backroundIndex.png);
+    background-size: cover;
+}
+
+//media 720px
+
+@media(max-width:720px){
+    
+    header{
+        height: 3vh;
+    }
+    .titulo{
+        margin-top: 50px;
+        color: black;
+    }
+    nav ul li a{
+        font-size: 10px;
+        
+    }
+
+// Quien Soy    
+    .contenedor-p {
+        margin-top: 40px;
+
+ 
+        font-size: 12px
+    }
+
+    .button1{
+        margin-top: 50px;
+        font-size: 12px;
+    }
+ //interes
+ 
+    #section-2{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        background-position: center;
+    .objetivo{
+        border-left:1px solid;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:10px;
+        margin-bottom: 0%;
+        margin-right: 20%;
+         h2{
+            margin-right: 25%;
+         }   
+        p{
+                font-size: 14px;
+            }   
+        }
+    .hobbies{
+        border-right: 1px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        margin-top: 0%;
+        p{
+            font-size: 14px;
+        }     
+        }
+    }
+    //nota personal: ser mas flexible por favor!!! doblate un poco pibe todo centrado!
+    //Habilidades
+    #habilidades {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    .habilidades-titulo{
+        font-size: 20px;
+        margin-right: 15%;
+    }
+    
+}
+.tecnologias{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+    p{
+        font-size: 14px;
+        padding: 4%;
+        margin-left: 1%;
+    }
+}
+.contabilidad{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+        p{
+            font-size: 14px;
+            padding: 4%;
+            margin-left: 1%;
+        }
+}
+
+
+
+
+}
+
+
+
+    
+         
+
+
+

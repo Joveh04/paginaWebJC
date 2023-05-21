@@ -1,0 +1,13 @@
+#contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+}
+#contacto .contacto-titulo {
+  margin-left: 40%;
+  margin-right: 40%;
+  font-size: 50px;
+  color: cornflowerblue;
+  margin-top: 5%;
+}/*# sourceMappingURL=contacto.css.map */

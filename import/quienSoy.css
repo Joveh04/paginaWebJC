@@ -1,0 +1,39 @@
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(imagenes/imagen-paralax.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 1%;
+  height: 100vh;
+}
+.section-1 .contenedor-p {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 70%;
+  margin-bottom: 5%;
+}
+.section-1 .contenedor-p p {
+  padding: 3%;
+  color: gray;
+}
+.section-1 .holaMundo {
+  font-size: 30px;
+  color: rgb(246, 239, 239);
+  padding: 4%;
+  padding-top: 7%;
+}
+.section-1 .button1 {
+  background-color: black;
+  color: azure;
+  padding: 1%;
+  border-radius: 10px;
+  width: 15%;
+}
+
+.titulo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 26px;
+}/*# sourceMappingURL=quienSoy.css.map */
